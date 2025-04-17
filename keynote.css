@@ -1,0 +1,65 @@
+.as a{ text-decoration: none;display: grid; font-weight: bold;color: white;}
+.as{margin-left: 80%;font-size: large;display: flex;}
+.key{color: gold;font-size: 40px;margin-left: 30%;position: fixed;background: transparent;}
+body{background-image: url('trumpet.jpg');color:white; 
+    
+    
+    height: 100vh;
+    margin: 0;
+    }
+.as button{background-color: black;margin-left: 1px;border-inline-color:red;}
+.button_one:hover{background-color: white;color: black;animation: expand 4s normal;}
+.as .button_one a:hover{color: black;}
+.button_two:hover{background-color: white;color: black;animation: expand 4s normal;}
+.as .button_two a:hover{color: black;}
+.button_three:hover{background-color: white;color: black;animation: expand 4s normal;}
+.as .button_three a:hover{color: black;}
+.button_four:hover{background-color: white;color: black;animation: expand 4s normal;}
+.as .button_four a:hover{color: black;}
+
+
+@keyframes loading {
+    0% {
+        color: #3498db;
+    }
+    25% {
+        color: #e74c3c;
+    }
+    50% {
+        color: #f1c40f;
+    }
+    75% {
+        color: #2ecc71;
+    }
+    100% {
+        color: #3498db;
+    }
+}
+    
+
+.button_one:hover{background-color: white;}
+.details{position: absolute;margin-top: 8%;}
+
+.loader img {
+    width: 150px;
+    height: 150px;
+    border: 6px solid #ccc;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 45%;
+    margin-top: 10%;
+    
+    
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.heading {background-color: rgb(46, 44, 44);height: 70px;}
+.pictures img{ height: 400px;width: 400px;border-radius: 25% 10%;}
